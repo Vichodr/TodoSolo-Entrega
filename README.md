@@ -4,14 +4,16 @@ Entrega BackEnd para Especializacion Tecnologia I
 
 Contratos incluidos y sus respectivas rutas:
 
--Listar Productos: get('/', getProducts) [GET]
+-Listar Productos: GET('/') [getProducts]
 
--Listar Producto por ID: get('/:productId', getOneProduct) [GET]
+-Listar Producto por ID: GET('/:productId') [getOneProduct]
 
--Crear Producto: post('/', createProduct) [POST]
+-Crear Producto: POST('/') [createProduct]
 
--Eliminar Producto por ID: delete('/:productId', deleteProduct) [DELETE]
+Atributos de producto: (name: string), (category: string), (description: string) y (image_url: string)
 
--Editar Producto por ID: put('/:productId', editProduct) [PUT]
+-Eliminar Producto por ID: DELETE('/:productId') [deleteProduct]
+
+-Editar Producto por ID: PUT('/:productId') [editProduct]
 
 Vicente Marquez - TodoSolo
